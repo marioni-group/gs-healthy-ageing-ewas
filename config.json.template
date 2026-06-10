@@ -1,0 +1,25 @@
+{
+    "data_sources": {
+        "data_name": {
+            "file_path": "",
+            "column_mapping": {},
+            "convert_columns": [],
+            "convert_type": "",
+            "drop_columns": []
+        }
+    },
+    "exclusion_criteria": {
+        "key_covariates": [],
+        "disease_analysis_columns": []
+    },
+    "imputed_data": {
+        "round_columns": [],
+        "int_columns": [],
+        "key_columns": [],
+        "covariate_columns": [],
+        "non_covariate_columns": []
+
+    },
+    "selected_diseases": [],
+    "other": []
+}
