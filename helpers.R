@@ -1,0 +1,4 @@
+PRIMARY = "#1f6f6f"
+SECONDARY = "#54a1a1"
+TERTIARY = "#9fc8c8"
+CONTRAST = "#888888"

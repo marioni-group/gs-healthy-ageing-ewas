@@ -1,7 +1,9 @@
 # Generation Scotland Healthy Ageing EWAS
-EWAS and binary classification using the Generation Scotland data to evaluate healthy ageing definitions.
+EWAS and binary classification using the Generation Scotland data to evaluate healthy ageing definitions. There is a mixture of Python and R scripts.
 
 ## How to Run
+
+For each section, the scripts are numbered in the order they need to be run in.
 
 ### Configuration
 
@@ -24,10 +26,26 @@ python preprocessing/{script_name}
 
 ### EWAS
 
-TBD
+The R scripts capture the preparation and analysis code required to run the data. Each can be run using the following command:
+
+```
+R ewas/{script_name}
+```
+
+In between `2 - regress_covariates.R` and `3 - ewas_results.R` is running the OSCA EWAS as follows:
+
+```
+osca --linear \
+     --befile {input_file} \
+     --pheno {phenotype_file} \
+     --fast-linear \
+     --out {output_folder}
+```
 
 ### Classification
 
 TBD
 
 ### Analysis
+
+TBD
